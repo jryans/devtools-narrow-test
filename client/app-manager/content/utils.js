@@ -52,7 +52,7 @@ var Utils = (function() {
   }
 
 
-  let strings = Services.strings.createBundle("chrome://browser/locale/devtools/app-manager.properties");
+  let strings = Services.strings.createBundle("chrome://devtools/locale/app-manager.properties");
 
   function l10n (property, args = []) {
     if (args && args.length > 0) {

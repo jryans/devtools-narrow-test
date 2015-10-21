@@ -10,7 +10,7 @@ const {ConnectionManager, Connection} = require("devtools/shared/client/connecti
 const promise = require("devtools/shared/deprecated-sync-thenables");
 const prefs = require("sdk/preferences/service");
 const Services = require("Services");
-const Strings = Services.strings.createBundle("chrome://browser/locale/devtools/app-manager.properties");
+const Strings = Services.strings.createBundle("chrome://devtools/locale/app-manager.properties");
 
 var UI = {
   _toolboxTabCursor: 0,
